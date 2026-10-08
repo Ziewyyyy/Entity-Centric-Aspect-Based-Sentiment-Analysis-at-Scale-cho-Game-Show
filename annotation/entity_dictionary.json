@@ -1,0 +1,22 @@
+{
+  "artists": [
+    {
+      "canonical_name": "HIEUTHUHAI",
+      "aliases": ["HIEUTHUHAI", "Hiếu Thứ Hai", "Hiếu"]
+    },
+    {
+      "canonical_name": "RHYDER",
+      "aliases": ["RHYDER", "Rhyder"]
+    },
+    {
+      "canonical_name": "Quang Hùng MasterD",
+      "aliases": ["Quang Hùng MasterD", "Quang Hùng", "QHMD"]
+    }
+  ],
+  "entity_types": [
+    "ARTIST",
+    "TEAM",
+    "PERFORMANCE",
+    "SHOW"
+  ]
+}
