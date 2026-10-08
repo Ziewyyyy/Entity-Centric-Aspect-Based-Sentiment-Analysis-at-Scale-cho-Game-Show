@@ -46,7 +46,7 @@ def get_video_info(video_id):
     }
 
 
-def crawl_video(video, limit=500):
+def crawl_video(video, limit=100):
     video_id = video["video_id"]
     info = get_video_info(video_id)
 
@@ -120,7 +120,7 @@ def save_jsonl(comments, video_id):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--limit", type=int, default=500)
+    parser.add_argument("--limit", type=int, default=100)
     args = parser.parse_args()
 
     if args.limit < 1:
