@@ -15,15 +15,16 @@ Gán nhãn bình luận theo cấu trúc:
 
 ## 3. Aspect
 
-- VOCAL: Giọng hát
-- DANCE: Vũ đạo
-- PERFORMANCE: Kỹ năng trình diễn
-- VISUAL: Ngoại hình, trang phục
-- PERSONALITY: Tính cách, thái độ
-- INTERACTION: Tương tác giữa nghệ sĩ
-- CONTENT: Nội dung tiết mục
-- PRODUCTION: Âm thanh, ánh sáng, sân khấu
-- EDITING: Cách dựng và biên tập video
+-GENERAL: Đánh giá, khen hoặc chê chung về nghệ sĩ, nhóm, bài hát hoặc tiết mục mà không đề cập khía cạnh cụ thể.
+-VOCAL: Giọng hát, giọng rap, kỹ thuật thanh nhạc, cách xử lý giọng.
+-DANCE: Vũ đạo, động tác nhảy, kỹ thuật nhảy, độ đồng đều.
+-PERFORMANCE: Kỹ năng trình diễn, biểu cảm sân khấu, thần thái biểu diễn, khả năng làm chủ sân khấu.
+-VISUAL: Ngoại hình, nhan sắc, trang phục, kiểu tóc, phong cách tạo hình.
+-PERSONALITY: Tính cách, thái độ, cách ứng xử của nghệ sĩ.
+-INTERACTION: Sự tương tác, phối hợp và ăn ý giữa các nghệ sĩ.
+-CONTENT: Nội dung và chất lượng âm nhạc của tiết mục, bao gồm lời bài hát, giai điệu, hòa âm, thông điệp và ý tưởng nghệ thuật.
+-PRODUCTION: Chất lượng sản xuất, âm thanh, ánh sáng, hiệu ứng, đạo cụ và thiết kế sân khấu.
+-EDITING: Cách quay dựng, góc máy, chuyển cảnh và biên tập video.
 
 ## 4. Sentiment
 
