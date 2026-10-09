@@ -57,3 +57,67 @@ Annotation 2:
 - Aspect: DANCE
 - Opinion Span: "nhảy chưa đều"
 - Sentiment: NEG
+
+## 7.Cách sử dụng
+Bước 1: Khởi động Label Studio
+http://localhost:8080
+Vào setting->labeling interface->code gắn:
+<View>
+  <Header value="Game Show - Entity Centric ABSA"/>
+
+  <Header value="Comment"/>
+  <Text name="comment" value="$text"/>
+
+  <Header value="1. Entity and Opinion Span"/>
+
+  <Labels name="spans" toName="comment">
+    <Label value="ARTIST" background="#60A5FA"/>
+    <Label value="TEAM" background="#A78BFA"/>
+    <Label value="SHOW" background="#FBBF24"/>
+    <Label value="PERFORMANCE" background="#34D399"/>
+    <Label value="OPINION" background="#FB7185"/>
+  </Labels>
+
+  <Relations>
+    <Relation value="HAS_OPINION"/>
+  </Relations>
+
+  <Header value="2. Aspect of Opinion Span"/>
+
+  <Choices
+    name="aspect"
+    toName="comment"
+    perRegion="true"
+    choice="single">
+
+    <Choice value="VOCAL"/>
+    <Choice value="DANCE"/>
+    <Choice value="PERFORMANCE"/>
+    <Choice value="VISUAL"/>
+    <Choice value="PERSONALITY"/>
+    <Choice value="INTERACTION"/>
+    <Choice value="CONTENT"/>
+    <Choice value="PRODUCTION"/>
+    <Choice value="EDITING"/>
+    <Choice value="POPULARITY"/>
+    <Choice value="AWARD_RESULT"/>
+  </Choices>
+
+  <Header value="3. Sentiment of Opinion Span"/>
+
+  <Choices
+    name="sentiment"
+    toName="comment"
+    perRegion="true"
+    choice="single">
+
+    <Choice value="POS"/>
+    <Choice value="NEG"/>
+    <Choice value="NEU"/>
+  </Choices>
+</View>
+Bước 2: Tạo project mới, import file data/labeled/label_studio_tasks.json
+Bước 3: Sau khi gán entity, opinion, tạo Relation giữa Entity và Opinion Span và gán quan hệ HAS_OPINION. Hướng quan hệ phải từ Entity đến Opinion Span.
+Bước 4: Submit 
+Bước 5: sau khi xong 200 comment export ra file json, để vào folder data/labeled
+Nếu comment ko rõ ràng thì chỉ submit ko chọn gì cả
