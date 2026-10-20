@@ -1,0 +1,24 @@
+{
+  "labels": [
+    "O",
+    "B-ARTIST",
+    "I-ARTIST",
+    "B-TEAM",
+    "I-TEAM",
+    "B-PERFORMANCE",
+    "I-PERFORMANCE",
+    "B-SHOW",
+    "I-SHOW"
+  ],
+  "label2id": {
+    "O": 0,
+    "B-ARTIST": 1,
+    "I-ARTIST": 2,
+    "B-TEAM": 3,
+    "I-TEAM": 4,
+    "B-PERFORMANCE": 5,
+    "I-PERFORMANCE": 6,
+    "B-SHOW": 7,
+    "I-SHOW": 8
+  }
+}

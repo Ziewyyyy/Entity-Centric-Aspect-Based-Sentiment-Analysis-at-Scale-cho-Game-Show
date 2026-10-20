@@ -4,3 +4,21 @@ __pycache__/
 *.pyc
 data/raw/
 data/cleaned/
+entity_tokenizer.py/
+# AI model weights
+models/**/*.safetensors
+models/**/*.bin
+models/**/*.pt
+
+# Training checkpoints
+models/**/checkpoint-*/
+models/**/checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Cache
+.cache/

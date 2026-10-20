@@ -1,16 +1,415 @@
 {
   "artists": [
     {
-      "canonical_name": "HIEUTHUHAI",
-      "aliases": ["HIEUTHUHAI", "Hiếu Thứ Hai", "Hiếu"]
+      "canonical_name": "Anh Tú Atus",
+      "aliases": [
+        "Anh Tú Atus",
+        "Atus",
+        "ATUS",
+        "Anh Tú",
+        "Anh tu atus"
+      ]
+    },
+    {
+      "canonical_name": "Negav",
+      "aliases": [
+        "ne ghíp",
+        "Negav",
+        "An",
+        "NEGIV"
+      ]
+    },
+    {
+      "canonical_name": "Xuân Ca",
+      "aliases": [
+        "xuân ca"
+      ]
+    },
+    {
+      "canonical_name": "Bùi Trường Linh",
+      "aliases": [
+        "buitruonglinh",
+        "Bui truong linh"
+      ]
+    },
+    {
+      "canonical_name": "Isaac",
+      "aliases": [
+        "Isaac",
+        "ISAAC",
+        "Phạm Lưu Tuấn Tài"
+      ]
     },
     {
       "canonical_name": "RHYDER",
-      "aliases": ["RHYDER", "Rhyder"]
+      "aliases": [
+        "RHYDER",
+        "Rhyder",
+        "Quang Anh Rhyder",
+        "Quang Anh",
+        "Qa",
+        "Qaaaaaaaaaaaaaaaaaa",
+        "Rai đơ"
+      ]
+    },
+    {
+      "canonical_name": "HURRYKNG",
+      "aliases": [
+        "HURRYKNG",
+        "HurryKng",
+        "Hurry",
+        "Hưng"
+      ]
+    },
+    {
+      "canonical_name": "Cody Nam Võ",
+      "aliases": [
+        "Cody Nam Võ",
+        "Cody",
+        "Nam Võ",
+        "cody zNAm võ",
+        "Nam cudy"
+      ]
     },
     {
       "canonical_name": "Quang Hùng MasterD",
-      "aliases": ["Quang Hùng MasterD", "Quang Hùng", "QHMD"]
+      "aliases": [
+        "Quang Hùng MasterD",
+        "Quang Hùng",
+        "MasterD",
+        "QHMD",
+        "Quan Hùng",
+        "quang hùng",
+        "Quang Hùng MastreD"
+      ]
+    },
+    {
+      "canonical_name": "Wren Evans",
+      "aliases": [
+        "Wren Evans",
+        "Wren"
+      ]
+    },
+    {
+      "canonical_name": "CONGB",
+      "aliases": [
+        "CONGB",
+        "CongB",
+        "Công B",
+        "Cong b",
+        "Bí Cong Be",
+        "Bi"
+      ]
+    },
+    {
+      "canonical_name": "QuânAP",
+      "aliases": [
+        "QuânAP",
+        "Quân",
+        "Quân AP"
+      ]
+    },
+    {
+      "canonical_name": "HIEUTHUHAI",
+      "aliases": [
+        "HIEUTHUHAI",
+        "Hiếu Thứ Hai",
+        "Hiếu",
+        "hái thứ hiu",
+        "hieu",
+        "HTH",
+        "Hiếuu",
+        "đội trưởng Trần"
+      ]
+    },
+    {
+      "canonical_name": "JSOL",
+      "aliases": [
+        "JSOL",
+        "Jsol",
+        "J Sol"
+      ]
+    },
+    {
+      "canonical_name": "Erik",
+      "aliases": [
+        "Erik",
+        "ERIK",
+        "Lê Trung Thành"
+      ]
+    },
+    {
+      "canonical_name": "Orange",
+      "aliases": [
+        "Orange",
+        "ORANGE",
+        "Khương Hoàn Mỹ"
+      ]
+    },
+    {
+      "canonical_name": "tlinh",
+      "aliases": [
+        "tlinh",
+        "Tlinh",
+        "TLINH",
+        "Thảo Linh"
+      ]
+    },
+    {
+      "canonical_name": "WEAN",
+      "aliases": [
+        "WEAN",
+        "Wean",
+        "Wean Lê"
+      ]
+    },
+    {
+      "canonical_name": "Đức Phúc",
+      "aliases": [
+        "Đức Phúc",
+        "Duc Phuc",
+        "Phúc",
+        "ĐP",
+        "DP"
+      ]
+    },
+    {
+      "canonical_name": "Công Dương",
+      "aliases": [
+        "Công Dương",
+        "Cong Duong",
+        "Công Dươngggggggggg",
+        "công duong"
+      ]
+    },
+    {
+      "canonical_name": "Văn Toàn",
+      "aliases": [
+        "Van toan"
+      ]
+    },
+    {
+      "canonical_name": "Hải Đăng Doo",
+      "aliases": [
+        "Hải Đăng Doo",
+        "Hai Dang Doo",
+        "Hải Đăng",
+        "Hải Đăng Đo"
+      ]
+    },
+    {
+      "canonical_name": "Pháp Kiều",
+      "aliases": [
+        "Pháp Kiều",
+        "Kiều"
+      ]
+    },
+    {
+      "canonical_name": "alan walker",
+      "aliases": [
+        "DJ Alan",
+        "Alan",
+        "ALWK",
+        "Allan walker",
+        "anh lăng",
+        "anlan"
+      ]
+    },
+    {
+      "canonical_name": "Dương Domic",
+      "aliases": [
+        "Dương Domic",
+        "Dương",
+        "duong domic",
+        "dương dmic"
+      ] 
+    },
+    {
+      "canonical_name": "Trúc Nhân",
+      "aliases": [
+        "Trúc Nhân",
+        "Truc Nhan"
+      ]
+    },
+    {
+      "canonical_name": "Hùng Huỳnh",
+      "aliases": [
+        "Hùng Huỳnh",
+        "Hung Huynh",
+        "Huỳnh Hoàng Hùng",
+        "Bé hùng"
+      ]
+    }
+  ],
+  "teams": [
+    {
+      "canonical_name": "Team Ngáo Ngơ",
+      "aliases": [
+        "Team Ngáo Ngơ",
+        "boyband toàn cầu",
+        "Team HIEUTHUHAI"
+      ]
+    },
+    {
+      "canonical_name": "Team Chờ chút",
+      "aliases": [
+        "Team Chờ chút",
+        "Đội Chờ chút",
+        "Nhóm Chờ chút"
+      ]
+    },
+    {
+      "canonical_name": "Team Dương Domic",
+      "aliases": []
+    },
+    {
+      "canonical_name": "Team Ngạo nghễ",
+      "aliases": [
+        "Đội Ngạo nghễ",
+        "Nhóm Ngạo nghễ",
+        "team ngao nghe"
+      ]
+    },
+    {
+      "canonical_name": "Team Nỗi đau ngây dại",
+      "aliases": []
+    },
+    {
+      "canonical_name": "Team I'M THINKING ABOUT YOU",
+      "aliases": []
+    },
+    {
+      "canonical_name": "Team ICON",
+      "aliases": []
+    },
+    {
+      "canonical_name": "team Secret",
+      "aliases": [
+        "team trái câyy",
+        "4 ông chủ vườn",
+        "Đội Secret"
+      ]
+    }
+  ],
+  "performances": [
+    {
+      "canonical_name": "SECRET",
+      "aliases": [
+        "SECRET",
+        "Secret",
+        "bé rịt",
+        "vườn trái cây",
+        "trái cây"
+      ],
+      "video_id": "Rb3hfEPyJxQ"
+    },
+    {
+      "canonical_name": "I'M THINKING ABOUT YOU",
+      "aliases": [
+        "I'M THINKING ABOUT YOU",
+        "I'm Thinking About You",
+        "I'm thingking about you"
+      ],
+      "video_id": "o7X2VnPcufU"
+    },
+    {
+      "canonical_name": "NGẠO NGHỄ",
+      "aliases": [
+        "NGẠO NGHỄ",
+        "Ngạo Nghễ",
+        "Ngạo Nghêc",
+        "ngạo nghễ"
+      ],
+      "video_id": "48l3QNd9GFo"
+    },
+    {
+      "canonical_name": "ICON",
+      "aliases": [
+        "ICON",
+        "Icon"
+      ],
+      "video_id": "IkEQEdqsgeQ"
+    },
+    {
+      "canonical_name": "Nỗi đau ngây dại",
+      "aliases": [
+        "Nỗi đau ngây dại",
+        "Nỗi đau ngây dại",
+        "Nỗi Đau Ngay Dại",
+        "Nỗi Đau Ngây Dạiiiiii"
+      ],
+      "video_id": "gZwfL-2hslU"
+    },{
+      "canonical_name": "Chờ chút",
+      "aliases": [
+        "bé chờ",
+        "Chờ chút",
+        "Chờ Chút",
+        "Chờ Chút"
+      ],
+      "video_id": "gZwfL-2hslU"
+    },
+    {
+      "canonical_name": "Ngáo Ngơ",
+      "aliases": [
+        "Ngao Ngo",
+        "Ngáo Ngơ",
+        "nhà ngáo"
+      ],
+      "video_id": "TM9SGdrOMsk"
+    }
+  ],
+  "shows": [
+    {
+      "canonical_name": "Anh Trai Say Hi",
+      "aliases": [
+        "Anh Trai Say Hi",
+        "ATSH",
+        "Mùa 1",
+        "Mùa1",
+        "say hi",
+        "Anh trai",
+        "ATSH1",
+        "ATSH mùa một",
+        "atsh mùa 1",
+        "Mùa1 Anh Trai Say Hi",
+        "Mùa1 ATSH",
+        "Anh Trai Say Hi mùa 1",
+        "Season 1",
+        "Mua 1",
+        "Anh trai say hi first"
+      ]
+    },
+    {
+      "canonical_name": "Em Xinh Say Hi",
+      "aliases": [
+        "Em Xinh Say Hi",
+        "EXSH",
+        "Em xinh",
+        "ESSH1"
+      ]
+    },
+    {
+      "canonical_name": "Vũ trụ Say Hi",
+      "aliases": []
+    },
+    {
+      "canonical_name": "Tinh Hà Say Hi",
+      "aliases": [
+        "Tinh Hà Say Hi",
+        "Mùa 2",
+        "Tinh hà",
+        "Mùa2",
+        "ATSH2",
+        "THSH",
+        "Mùa 2 Anh Trai Say Hi",
+        "Mùa 2 say hi",
+        "Mùa 2 Tinh Hà Say Hi",
+        "Anh Trai Say Hi mùa 2",
+        "Anhtraisayhi mùa 2",
+        "Mua 2",
+        "Second"
+      ]
     }
   ],
   "entity_types": [

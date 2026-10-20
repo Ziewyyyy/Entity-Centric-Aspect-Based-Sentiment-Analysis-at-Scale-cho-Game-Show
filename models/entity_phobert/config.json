@@ -1,0 +1,52 @@
+{
+  "add_cross_attention": false,
+  "architectures": [
+    "RobertaForTokenClassification"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "bos_token_id": 0,
+  "classifier_dropout": null,
+  "dtype": "float32",
+  "eos_token_id": 2,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "O",
+    "1": "B-ARTIST",
+    "2": "I-ARTIST",
+    "3": "B-TEAM",
+    "4": "I-TEAM",
+    "5": "B-PERFORMANCE",
+    "6": "I-PERFORMANCE",
+    "7": "B-SHOW",
+    "8": "I-SHOW"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "is_decoder": false,
+  "label2id": {
+    "B-ARTIST": 1,
+    "B-PERFORMANCE": 5,
+    "B-SHOW": 7,
+    "B-TEAM": 3,
+    "I-ARTIST": 2,
+    "I-PERFORMANCE": 6,
+    "I-SHOW": 8,
+    "I-TEAM": 4,
+    "O": 0
+  },
+  "layer_norm_eps": 1e-05,
+  "max_position_embeddings": 258,
+  "model_type": "roberta",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 1,
+  "position_embedding_type": "absolute",
+  "tie_word_embeddings": true,
+  "tokenizer_class": "PhobertTokenizer",
+  "transformers_version": "5.19.0",
+  "type_vocab_size": 1,
+  "use_cache": false,
+  "vocab_size": 64001
+}

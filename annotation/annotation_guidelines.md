@@ -25,6 +25,8 @@ Gán nhãn bình luận theo cấu trúc:
 -CONTENT: Nội dung và chất lượng âm nhạc của tiết mục, bao gồm lời bài hát, giai điệu, hòa âm, thông điệp và ý tưởng nghệ thuật.
 -PRODUCTION: Chất lượng sản xuất, âm thanh, ánh sáng, hiệu ứng, đạo cụ và thiết kế sân khấu.
 -EDITING: Cách quay dựng, góc máy, chuyển cảnh và biên tập video.
+-POPULARITY: Độ nổi tiếng, thảo luận trên mạng
+-AWARD_WINNING
 
 ## 4. Sentiment
 

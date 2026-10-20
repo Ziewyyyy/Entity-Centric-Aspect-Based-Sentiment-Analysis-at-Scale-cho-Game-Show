@@ -1,0 +1,24 @@
+{
+  "model_name": "vinai/phobert-base-v2",
+  "labels": [
+    "NEG",
+    "NEU",
+    "POS"
+  ],
+  "max_length": 192,
+  "epochs": 5,
+  "batch_size": 4,
+  "gradient_accumulation": 2,
+  "learning_rate": 2e-05,
+  "weight_mode": "sqrt",
+  "class_weights": [
+    1.2965233325958252,
+    2.668560028076172,
+    0.6645023226737976
+  ],
+  "train_samples": 1175,
+  "val_samples": 260,
+  "test_samples": 264,
+  "best_checkpoint": "D:\\Entity-Centric-Aspect-Based-Sentiment-Analysis-at-Scale-cho-Game-Show\\models\\sentiment_phobert\\checkpoints\\checkpoint-294",
+  "best_metric": 0.8605314307928014
+}
