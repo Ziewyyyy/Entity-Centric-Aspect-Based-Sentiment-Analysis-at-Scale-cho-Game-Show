@@ -36,7 +36,21 @@ def normalize_comment(record):
     message["published_at"] = (
         published_at.astimezone(timezone.utc).isoformat().replace("+00:00", "Z")
     )
-    
+
+    # Optional context fields: missing or null values are sent as null.
+    for field in ("video_title", "show"):
+        value = record.get(field)
+        if value is not None and not isinstance(value, str):
+            raise ValueError(f"{field} must be a string or null")
+        message[field] = value
+
+    like_count = record.get("like_count")
+    if like_count is not None and (
+        isinstance(like_count, bool) or not isinstance(like_count, int) or like_count < 0
+    ):
+        raise ValueError("like_count must be a non-negative integer or null")
+    message["like_count"] = like_count
+
     # Reject lone Unicode surrogates, including escaped ones in otherwise valid JSON.
     for value in message.values():
         if isinstance(value, str):
