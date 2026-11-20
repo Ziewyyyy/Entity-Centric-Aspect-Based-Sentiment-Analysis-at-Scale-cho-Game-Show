@@ -1,6 +1,7 @@
 
 google-api-python-client
 python-dotenv
+confluent-kafka>=2.6,<3
 pandas
 tqdm
 
@@ -36,3 +37,4 @@ elasticsearch
 
 # HTTP requests
 requests
+underthesea

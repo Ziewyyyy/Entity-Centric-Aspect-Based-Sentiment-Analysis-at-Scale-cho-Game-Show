@@ -1,0 +1,7 @@
+2026-11-20 12:05:38,908 INFO START input=tests\fixtures\youtube_comments.jsonl topic=raw-comment bootstrap=localhost:19092
+2026-11-20 12:05:38,909 INFO READ_FILE path=tests\fixtures\youtube_comments.jsonl
+2026-11-20 12:05:40,948 ERROR FAIL [youtube-comments-producer#producer-1] [thrd:localhost:19092/bootstrap]: localhost:19092/bootstrap: Connect to ipv6#[::1]:19092 failed: Unknown error (after 2039ms in state CONNECT)
+2026-11-20 12:05:41,932 ERROR SEND_FAILED comment_id='producer-test-001' error=KafkaError{code=_MSG_TIMED_OUT,val=-192,str="Local: Message timed out"}
+2026-11-20 12:05:41,932 ERROR SEND_FAILED comment_id='producer-test-002' error=KafkaError{code=_MSG_TIMED_OUT,val=-192,str="Local: Message timed out"}
+2026-11-20 12:05:41,933 ERROR SEND_FAILED comment_id='producer-test-003' error=KafkaError{code=_MSG_TIMED_OUT,val=-192,str="Local: Message timed out"}
+2026-11-20 12:05:41,933 INFO SUMMARY read=3 success=0 invalid=0 failed=3 pending=0 file_errors=0 interrupted=False

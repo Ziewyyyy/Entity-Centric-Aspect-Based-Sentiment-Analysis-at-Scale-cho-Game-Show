@@ -1,0 +1,3 @@
+Partition:2	Offset:0	producer-test-001	{"comment_id": "producer-test-001", "video_id": "demo-video", "text": "RHYDER hát rất hay ❤️", "published_at": "2026-11-20T08:00:00Z", "author": "Khán giả mẫu"}
+Partition:2	Offset:1	producer-test-002	{"comment_id": "producer-test-002", "video_id": "demo-video", "text": "  Vũ đạo đẹp quá! 🎉  ", "published_at": "2026-11-20T08:01:00Z", "author": "Người xem"}
+Partition:0	Offset:0	producer-test-003	{"comment_id": "producer-test-003", "video_id": "demo-video", "text": "Bình luận cũ chưa lưu tác giả", "published_at": "2026-11-20T08:02:00Z", "author": null}
