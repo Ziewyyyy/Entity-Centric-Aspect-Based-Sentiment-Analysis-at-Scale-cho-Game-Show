@@ -36,12 +36,7 @@ def normalize_comment(record):
     message["published_at"] = (
         published_at.astimezone(timezone.utc).isoformat().replace("+00:00", "Z")
     )
-
-    author = record.get("author")
-    if author is not None and not isinstance(author, str):
-        raise ValueError("author must be a string or null")
-    message["author"] = author
-
+    
     # Reject lone Unicode surrogates, including escaped ones in otherwise valid JSON.
     for value in message.values():
         if isinstance(value, str):
