@@ -1,0 +1,8 @@
+2026-11-20 22:01:02,517 INFO file_cache is only supported with oauth2client<4.0.0
+2026-11-20 22:01:03,009 INFO WATCH video=VeCy5mfAdg8 title='THÊU HOA DỆT GẤM - buitruonglinh, HURRYKNG, JSOL, CONGB | TINH HÀ SAY HI [PERFORMANCE]'
+2026-11-20 22:01:03,009 INFO QUOTA estimate=2880 units/day (default limit 10000)
+2026-11-20 22:01:03,034 INFO START topic=test-stream bootstrap=localhost:9092 interval=30.0s videos=['VeCy5mfAdg8']
+2026-11-20 22:01:03,419 INFO INIT video=VeCy5mfAdg8 known=20 backfill=20
+2026-11-20 22:01:03,445 WARNING GETPID [youtube-stream-crawler#producer-1] [thrd:main]: Failed to acquire idempotence PID from broker 127.0.0.1:9092/1: Broker: Coordinator load in progress: retrying
+2026-11-20 22:01:03,976 INFO POLL video=VeCy5mfAdg8 new=20 sent=20 failed=0 pending=0
+2026-11-20 22:11:03,178 INFO STOPPED total_sent=20 pending=0
