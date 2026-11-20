@@ -1,8 +1,11 @@
+
 google-api-python-client
 python-dotenv
 confluent-kafka>=2.6,<3
 pandas
 tqdm
+
+# Deep Learning
 torch
 transformers
 datasets
@@ -10,4 +13,28 @@ accelerate
 seqeval
 scikit-learn
 sentencepiece
+
+# Vietnamese NLP
+underthesea
+
+# Kafka
+kafka-python
+
+# Spark Streaming
+pyspark
+
+# AI Service
+fastapi
+uvicorn[standard]
+pydantic
+
+# Database
+psycopg2-binary
+sqlalchemy
+
+# Elasticsearch
+elasticsearch
+
+# HTTP requests
+requests
 underthesea

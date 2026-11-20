@@ -1,0 +1,14 @@
+{
+  "labels": [
+    "NO_RELATION",
+    "HAS_OPINION"
+  ],
+  "threshold": 0.5,
+  "markers": [
+    "<ent>",
+    "</ent>",
+    "<op>",
+    "</op>"
+  ],
+  "max_length": 256
+}
