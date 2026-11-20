@@ -1,0 +1,7 @@
+2026-11-20 12:04:05,503 INFO START input=tests\fixtures\youtube_comments.jsonl topic=raw-comment bootstrap=localhost:9092
+2026-11-20 12:04:05,503 INFO READ_FILE path=tests\fixtures\youtube_comments.jsonl
+2026-11-20 12:04:06,099 WARNING GETPID [youtube-comments-producer#producer-1] [thrd:main]: Failed to acquire idempotence PID from broker localhost:9092/1: Broker: Coordinator load in progress: retrying
+2026-11-20 12:04:06,819 INFO SEND_OK comment_id='producer-test-001' topic=raw-comment partition=2 offset=0
+2026-11-20 12:04:06,820 INFO SEND_OK comment_id='producer-test-002' topic=raw-comment partition=2 offset=1
+2026-11-20 12:04:06,827 INFO SEND_OK comment_id='producer-test-003' topic=raw-comment partition=0 offset=0
+2026-11-20 12:04:06,828 INFO SUMMARY read=3 success=3 invalid=0 failed=0 pending=0 file_errors=0 interrupted=False

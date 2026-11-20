@@ -124,6 +124,7 @@ def crawl_video(video, limit=100):
                 "video_type": video["video_type"],
                 "source": "youtube",
                 "text": snippet["textDisplay"],
+                "author": snippet.get("authorDisplayName"),
                 "like_count": snippet.get("likeCount", 0),
                 "published_at": snippet["publishedAt"],
                 "updated_at": snippet.get("updatedAt"),
