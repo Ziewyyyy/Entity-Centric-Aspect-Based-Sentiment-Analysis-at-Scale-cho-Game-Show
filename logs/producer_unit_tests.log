@@ -1,0 +1,9 @@
+test_full_queue_has_bounded_wait (test_kafka_producer.ProducerTests.test_full_queue_has_bounded_wait) ... ok
+test_invalid_records_are_rejected (test_kafka_producer.ProducerTests.test_invalid_records_are_rejected) ... ok
+test_legacy_record_preserves_text_and_normalizes_timestamp (test_kafka_producer.ProducerTests.test_legacy_record_preserves_text_and_normalizes_timestamp) ... ok
+test_queue_backpressure_retries_without_changing_payload (test_kafka_producer.ProducerTests.test_queue_backpressure_retries_without_changing_payload) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.002s
+
+OK
